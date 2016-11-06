@@ -4,8 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node node_modules/uglify-js/bin/uglifyjs node_modules/typeis/typeis.js js/jquery-3.1.1.min.js js/highlight.pack.js js/particles.min.js js/typed.js js/main.js -o dist/output.min.js -c -m"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "uglify-js": "^2.7.4"
+  },
+  "dependencies": {
+    "typeis": "^1.0.4"
+  }
 }
