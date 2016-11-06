@@ -50,41 +50,6 @@ header{
     margin: 0 auto;
     padding: 15px;
 }
-.github-buttons{
-    margin-bottom: 15px;
-}
-.github-buttons > a, .code-playgrounds a{
-    padding: 5px 10px;
-    border:2px solid #fafafa;
-    border-radius: 50px;
-    text-align: left;
-    display: inline-block;
-    line-height: 24px;
-    position: relative;
-    margin:5px;
-    color: #fafafa;
-    font-size: 16px;
-    text-decoration: none;
-    transition: border-color ease .3s;
-}
-.code-playgrounds a:hover, .github-buttons > a:hover{
-    border-color: #93278F;
-}
-.github-buttons > a::after{
-    position: absolute;
-    content: attr(data-content);
-}
-.github-buttons > a > img {
-    width: 24px;
-    height: 24px;
-    padding-right: 5px;
-}
-.github-buttons > a > * {
-    float: left;
-}
-
-
-
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;

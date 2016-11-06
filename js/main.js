@@ -1,5 +1,4 @@
 particlesJS.load('header', 'assets/particles.json');
-var githubData;
 $(function () {
     $("#usage").typed({
         strings: [
